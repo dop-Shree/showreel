@@ -1,0 +1,399 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Shree Saravanan - Cinematographer | DOP</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+</head>
+<body>
+    <!-- Navigation -->
+    <nav class="navbar">
+        <div class="container nav-container">
+            <div class="logo">
+                <h2>SHREE SARAVANAN</h2>
+                <p class="tagline">Cinematographer | DOP</p>
+            </div>
+            <div class="nav-menu">
+                <ul class="nav-links">
+                    <li><a href="#home" class="nav-link active">Home</a></li>
+                    <li><a href="#about" class="nav-link">About</a></li>
+                    <li><a href="#showreel" class="nav-link">Showreel</a></li>
+                    <li><a href="#work" class="nav-link">Work</a></li>
+                    <li><a href="#contact" class="nav-link">Contact</a></li>
+                </ul>
+                <button class="theme-toggle" id="themeToggle" aria-label="Toggle theme">
+                    <i class="fas fa-sun"></i>
+                </button>
+                <div class="hamburger" id="hamburger">
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                </div>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section id="home" class="hero">
+        <div class="hero-overlay"></div>
+        <div class="hero-content">
+            <h1 class="hero-title">
+                <span class="line">Capturing Stories</span>
+                <span class="line">Through Light</span>
+            </h1>
+            <p class="hero-subtitle">Crafting visual narratives that resonate</p>
+            <div class="hero-cta">
+                <a href="#showreel" class="btn btn-primary">View Showreel</a>
+                <a href="#contact" class="btn btn-secondary">Get in Touch</a>
+            </div>
+        </div>
+        <div class="scroll-indicator">
+            <span></span>
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section id="about" class="about" style="padding: 80px 0;">
+        <div class="container">
+            <h2 class="section-title">About Me</h2>
+            <div style="background: var(--card-bg); padding: 40px; border-radius: 15px; box-shadow: 0 10px 30px rgba(0,0,0,0.1); line-height: 1.8; display: flex; flex-wrap: wrap; gap: 30px; align-items: center;">
+                <div style="flex: 1; min-width: 250px; display: flex; justify-content: center;">
+                    <img src="images/profile.jpg" alt="Shree Saravanan" class="clickable-img" style="max-width: 100%; border-radius: 10px; box-shadow: 0 5px 15px rgba(0,0,0,0.2);" onclick="document.getElementById('imageModal').style.display='block'; document.getElementById('expandedImg').src=this.src;">
+                </div>
+                <div style="flex: 2; min-width: 300px;">
+                    <p style="margin-bottom: 20px; font-size: 1.1rem; color: var(--text-color);">
+                        Festival-recognized Director of Photography with over 14 years of experience across feature films and OTT productions in Tamil, Malayalam, Hindi, Telugu, Kannada, and Punjabi. Known for crafting emotionally grounded visual narratives supported by strong technical expertise in digital color science, HDR mastering, and multi-format delivery workflows.
+                    </p>
+                    <p style="margin-bottom: 20px; font-size: 1.1rem; color: var(--text-color);">
+                        <strong>Cinematic Style & Approach:</strong> "I approach cinematography as emotional architecture. Light is not used merely to illuminate, but to shape psychological space. My visual language is grounded in realism yet responsive to narrative tension. Whether working within controlled LED volume environments or natural night exteriors, I design frames that serve performance first."
+                    </p>
+                </div>
+                <div style="width: 100%; display: grid; grid-template-columns: repeat(auto-fit, minmax(250px, 1fr)); gap: 30px; margin-top: 40px; border-top: 1px solid rgba(255,255,255,0.1); padding-top: 30px;">
+                    
+                    <!-- Column 1 -->
+                    <div class="expertise-card">
+                        <h3 style="color: var(--primary-color); margin-bottom: 15px; font-size: 1.2rem;">Core Expertise</h3>
+                        <ul style="list-style-type: none; padding-left: 0; color: var(--text-color); font-size: 0.95rem; line-height: 1.6;">
+                            <li><i class="fas fa-check" style="color: var(--primary-color); margin-right: 8px;"></i> Cinematography & Visual Storytelling</li>
+                            <li><i class="fas fa-check" style="color: var(--primary-color); margin-right: 8px;"></i> Staging & Blocking</li>
+                            <li><i class="fas fa-check" style="color: var(--primary-color); margin-right: 8px;"></i> Shot divisions</li>
+                            <li><i class="fas fa-check" style="color: var(--primary-color); margin-right: 8px;"></i> Lighting Design (Studio & Location)</li>
+                            <li><i class="fas fa-check" style="color: var(--primary-color); margin-right: 8px;"></i> Pre-Production Planning & Story Boarding</li>
+                            <li><i class="fas fa-check" style="color: var(--primary-color); margin-right: 8px;"></i> Digital Color Science & HDR Workflows</li>
+                            <li><i class="fas fa-check" style="color: var(--primary-color); margin-right: 8px;"></i> Virtual Production (LED Wall & Chroma Key)</li>
+                            <li><i class="fas fa-check" style="color: var(--primary-color); margin-right: 8px;"></i> High-Speed Cinematography (Phantom Systems)</li>
+                            <li><i class="fas fa-check" style="color: var(--primary-color); margin-right: 8px;"></i> Budget & Equipment Planning</li>
+                            <li><i class="fas fa-check" style="color: var(--primary-color); margin-right: 8px;"></i> Large-Scale Crew Leadership</li>
+                            <li><i class="fas fa-check" style="color: var(--primary-color); margin-right: 8px;"></i> Post-Production Workflow</li>
+                            <li><i class="fas fa-check" style="color: var(--primary-color); margin-right: 8px;"></i> Multi-Language Film Productions</li>
+                            <li><i class="fas fa-check" style="color: var(--primary-color); margin-right: 8px;"></i> CGI & VFX Shot Planning</li>
+                            <li><i class="fas fa-check" style="color: var(--primary-color); margin-right: 8px;"></i> DI Coordination (DaVinci Resolve, Baselight)</li>
+                        </ul>
+                    </div>
+
+                    <!-- Column 2 -->
+                    <div class="expertise-card">
+                        <h3 style="color: var(--primary-color); margin-bottom: 15px; font-size: 1.2rem;">Technical Expertise</h3>
+                        <div style="margin-bottom: 15px;">
+                            <strong style="color: var(--text-color);">Theatrical Workflow</strong>
+                            <p style="color: var(--text-color); font-size: 0.9rem; margin-top: 5px;">DCI-P3 | Gamma 2.6 | Film & Digital Integration</p>
+                        </div>
+                        <div style="margin-bottom: 15px;">
+                            <strong style="color: var(--text-color);">OTT & HDR Pipeline</strong>
+                            <p style="color: var(--text-color); font-size: 0.9rem; margin-top: 5px;">Rec.709 Gamma 2.2 / 2.4 SDR | Rec.2020 PQ HDR | Dolby Vision<br>Wide-Gamut Grading Strategies | Luminance-Based HDR Optimisation</p>
+                        </div>
+
+                        <h3 style="color: var(--primary-color); margin-top: 30px; margin-bottom: 15px; font-size: 1.2rem;">Cinematic Style</h3>
+                        <ul style="list-style-type: none; padding-left: 0; color: var(--text-color); font-size: 0.95rem; line-height: 1.6;">
+                            <li><i class="fas fa-star" style="color: var(--primary-color); margin-right: 8px;"></i> Character-Driven Framing</li>
+                            <li><i class="fas fa-star" style="color: var(--primary-color); margin-right: 8px;"></i> Rich Dynamic Contrast</li>
+                            <li><i class="fas fa-star" style="color: var(--primary-color); margin-right: 8px;"></i> Naturalistic Lighting Design</li>
+                            <li><i class="fas fa-star" style="color: var(--primary-color); margin-right: 8px;"></i> Narrative-Driven Color Palettes</li>
+                            <li><i class="fas fa-star" style="color: var(--primary-color); margin-right: 8px;"></i> Atmospheric Night Cinematography</li>
+                            <li><i class="fas fa-star" style="color: var(--primary-color); margin-right: 8px;"></i> Performance-Focused Camera Language</li>
+                        </ul>
+                        
+                        <h3 style="color: var(--primary-color); margin-top: 30px; margin-bottom: 15px; font-size: 1.2rem;">Languages</h3>
+                        <p style="color: var(--text-color); font-size: 0.95rem;">Tamil | Malayalam | Hindi | Telugu | Kannada | Punjabi</p>
+                    </div>
+
+                    <!-- Column 3 -->
+                    <div class="expertise-card">
+                        <h3 style="color: var(--primary-color); margin-bottom: 15px; font-size: 1.2rem;">Camera Systems</h3>
+                        <ul style="list-style-type: none; padding-left: 0; color: var(--text-color); font-size: 0.95rem; line-height: 1.6;">
+                            <li><strong style="color: var(--text-color);">Film:</strong> ARRI III (4-perf), ARRI 435 (4-perf), ARRI 235 (2-perf), ARRI SR3 (Super16mm), Photosonics (High-Speed 16mm)</li>
+                            <li style="margin-top: 10px;"><strong style="color: var(--text-color);">Digital:</strong> ARRI Alexa LF (Full Frame), ARRI Alexa (Super 35), RED Raptor (Full Frame), Sony Venice Series, Sony FX series, Canon C-500, Phantom Flex 4K (Super 35)</li>
+                        </ul>
+
+                        <h3 style="color: var(--primary-color); margin-top: 30px; margin-bottom: 15px; font-size: 1.2rem;">Specialized Rigs</h3>
+                        <ul style="list-style-type: none; padding-left: 0; color: var(--text-color); font-size: 0.95rem; line-height: 1.6;">
+                            <li><i class="fas fa-video" style="color: var(--primary-color); margin-right: 8px;"></i> DJI Inspire 3</li>
+                            <li><i class="fas fa-video" style="color: var(--primary-color); margin-right: 8px;"></i> All-Terrain Vehicle (ATV)</li>
+                            <li><i class="fas fa-video" style="color: var(--primary-color); margin-right: 8px;"></i> Black Arm Stabilisation</li>
+                            <li><i class="fas fa-video" style="color: var(--primary-color); margin-right: 8px;"></i> Pursuit System (Russian Arm)</li>
+                            <li><i class="fas fa-video" style="color: var(--primary-color); margin-right: 8px;"></i> Hydraulic low loader</li>
+                            <li><i class="fas fa-video" style="color: var(--primary-color); margin-right: 8px;"></i> Gimbals with Mimic Controls</li>
+                            <li><i class="fas fa-video" style="color: var(--primary-color); margin-right: 8px;"></i> Cable cam</li>
+                            <li><i class="fas fa-video" style="color: var(--primary-color); margin-right: 8px;"></i> Arri Trinity</li>
+                        </ul>
+
+                        <h3 style="color: var(--primary-color); margin-top: 30px; margin-bottom: 15px; font-size: 1.2rem;">Film Stocks</h3>
+                        <p style="color: var(--text-color); font-size: 0.95rem;">Kodak Vision 3: 5207 250-D, 5213 200-T, 5219 500-T, 7207 250-D, 7219 500-T</p>
+                    </div>
+
+                    <!-- Column 4 -->
+                    <div class="expertise-card">
+                        <h3 style="color: var(--primary-color); margin-bottom: 15px; font-size: 1.2rem;">Key Highlights</h3>
+                        <ul style="list-style-type: none; padding-left: 0; color: var(--text-color); font-size: 0.95rem; line-height: 1.6;">
+                            <li><i class="fas fa-trophy" style="color: var(--primary-color); margin-right: 8px;"></i> 14+ Years Cinematography Experience</li>
+                            <li><i class="fas fa-trophy" style="color: var(--primary-color); margin-right: 8px;"></i> 25+ Feature Films & OTT Projects</li>
+                            <li><i class="fas fa-trophy" style="color: var(--primary-color); margin-right: 8px;"></i> Indian Panorama Selection – IFFI Goa</li>
+                            <li><i class="fas fa-trophy" style="color: var(--primary-color); margin-right: 8px;"></i> Expertise in HDR, Dolby Vision & Wide-Gamut Pipelines</li>
+                            <li><i class="fas fa-trophy" style="color: var(--primary-color); margin-right: 8px;"></i> Experience with Film & Digital Cinema Systems</li>
+                        </ul>
+
+                        <h3 style="color: var(--primary-color); margin-top: 30px; margin-bottom: 15px; font-size: 1.2rem;">Selected Collaborations</h3>
+                        <p style="color: var(--text-color); font-size: 0.95rem; margin-bottom: 10px;">Worked with filmmakers and cinematographers across feature films and large-scale productions:</p>
+                        <ul style="list-style-type: none; padding-left: 0; font-size: 0.95rem; line-height: 1.6;">
+                            <li><a href="https://en.wikipedia.org/wiki/Sujith_Vaassudev" target="_blank" style="color: var(--text-color); text-decoration: none;"><i class="fas fa-user-friends" style="color: var(--primary-color); margin-right: 8px;"></i> Sujith Vaassudev</a></li>
+                            <li><a href="https://en.wikipedia.org/wiki/C._Prem_Kumar" target="_blank" style="color: var(--text-color); text-decoration: none;"><i class="fas fa-user-friends" style="color: var(--primary-color); margin-right: 8px;"></i> C. Prem Kumar</a></li>
+                            <li><a href="https://bharathwaaj.com/" target="_blank" style="color: var(--text-color); text-decoration: none;"><i class="fas fa-user-friends" style="color: var(--primary-color); margin-right: 8px;"></i> Bharathwaj Subbu</a></li>
+                            <li><a href="https://en.wikipedia.org/wiki/Jaya_Krishna_Gummadi" target="_blank" style="color: var(--text-color); text-decoration: none;"><i class="fas fa-user-friends" style="color: var(--primary-color); margin-right: 8px;"></i> Jayakrishna Gummadi</a></li>
+                            <li><a href="https://sourabhwaghmare.com/" target="_blank" style="color: var(--text-color); text-decoration: none;"><i class="fas fa-user-friends" style="color: var(--primary-color); margin-right: 8px;"></i> Sourabh Waghmare</a></li>
+                        </ul>
+                    </div>
+                </div>
+                
+                
+            </div>
+        </div>
+    </section>
+
+    <!-- Showreel Section -->
+    <section id="showreel" class="showreel">
+        <div class="container">
+            <h2 class="section-title">Showreel</h2>
+            <div class="video-grid">
+                <div class="video-card main-showreel">
+                    <div class="video-wrapper">
+                        <iframe src="https://www.youtube.com/embed/F32BQMkNlAc" 
+                                title="Sree Saravanan Showreel" 
+                                frameborder="0" 
+                                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" 
+                                allowfullscreen>
+                        </iframe>
+                    </div>
+                    <div class="video-info">
+                        <h3>Demo Reel</h3>
+                        <p>A showcase of selected cinematography work</p>
+                    </div>
+                </div>
+                
+                <!-- Additional video slots -->
+                <div class="video-card">
+                    <div class="video-wrapper">
+                        <iframe src="https://player.vimeo.com/video/827902369?h=b0e27181c4" frameborder="0" allow="autoplay; fullscreen; picture-in-picture" allowfullscreen></iframe>
+                    </div>
+                    <div class="video-info">
+                        <h3 class="video-title">Main Cinematography Reel</h3>
+                        <p class="video-desc">A comprehensive look at my cinematography work</p>
+                    </div>
+                </div>
+
+                <div class="video-card">
+                    <div class="video-wrapper">
+                        <iframe src="https://player.vimeo.com/video/951943939?h=5b44086ec4" frameborder="0" allow="autoplay; fullscreen; picture-in-picture" allowfullscreen></iframe>
+                    </div>
+                    <div class="video-info">
+                        <h3 class="video-title">Naturalistic Lighting Visual Study</h3>
+                        <p class="video-desc">Exploring natural light and emotional spaces</p>
+                    </div>
+                </div>
+                
+                <div class="video-card">
+                    <div class="video-wrapper">
+                        <iframe src="https://player.vimeo.com/video/648458088?h=d588506169" frameborder="0" allow="autoplay; fullscreen; picture-in-picture" allowfullscreen></iframe>
+                    </div>
+                    <div class="video-info">
+                        <h3 class="video-title">Behind-The-Scene Technical Breakdown</h3>
+                        <p class="video-desc">Technical insights into the lighting and camera setups</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+   <!-- Work Section -->
+<section id="work" class="work">
+    <div class="container">
+        <h2 class="section-title">Filmography</h2>
+        <div class="work-grid">
+            <a href="https://www.imdb.com/title/tt26733094/?ref_=nm_flmg_job_1_accord_2_cdt_t_2" target="_blank" style="text-decoration: none; color: inherit;">
+                <div class="work-card">
+                    <div class="work-poster">
+                        <img src="images/tt26733094.jpg" alt="Kaadhal Enbadhu Podhu Udamai">
+                    </div>
+                    <div class="work-content">
+                        <h3>Kaadhal Enbadhu Podhu Udamai</h3>
+                        <p class="work-year">2025</p>
+                        <p class="work-role">Cinematographer</p>
+                        <div class="work-rating">
+                            <i class="fas fa-star"></i>
+                            <span>6.1/10 IMDb</span>
+                        </div>
+                    </div>
+                </div>
+            </a>
+
+            <a href="https://www.imdb.com/title/tt39563889/?ref_=nm_flmg_job_1_accord_2_cdt_t_1" target="_blank" style="text-decoration: none; color: inherit;">
+                <div class="work-card">
+                    <div class="work-poster">
+                        <img src="images/tt39563889.jpg" alt="Three Mothers">
+                    </div>
+                    <div class="work-content">
+                        <h3>Three Mothers</h3>
+                        <p class="work-year">2026</p>
+                        <p class="work-role">Cinematographer</p>
+                        <div class="work-rating">
+                            <i class="fas fa-star"></i>
+                            <span>IMDb</span>
+                        </div>
+                    </div>
+                </div>
+            </a>
+
+            <div class="work-card">
+                <div class="work-poster">
+                    <img src="images/oru_nalla.jpg" alt="Oru Nalla Naal Paathu Solren">
+                </div>
+                <div class="work-content">
+                    <h3>Oru Nalla Naal Paathu Solren</h3>
+                    <p class="work-year">2018</p>
+                    <p class="work-role">Director of Photography</p>
+                    <div class="work-rating">
+                        <i class="fas fa-star"></i>
+                        <span>5.7 IMDb</span>
+                    </div>
+                </div>
+            </div>
+
+            <div class="work-card">
+                <div class="work-poster">
+                    <img src="images/gemini.jpg" alt="Gemini Ganeshanum Suruli Raajanum">
+                </div>
+                <div class="work-content">
+                    <h3>Gemini Ganeshanum Suruli Raajanum</h3>
+                    <p class="work-year">2017</p>
+                    <p class="work-role">Cinematographer</p>
+                    <div class="work-rating">
+                        <i class="fas fa-star"></i>
+                        <span>5.8 IMDb</span>
+                    </div>
+                </div>
+            </div>
+
+            <div class="work-card">
+                <div class="work-poster">
+                    <img src="images/charles.jpg" alt="Charles Shafiq Karthiga">
+                </div>
+                <div class="work-content">
+                    <h3>Charles Shafiq Karthiga</h3>
+                    <p class="work-year">2015</p>
+                    <p class="work-role">Director of Photography</p>
+                    <div class="work-rating">
+                        <i class="fas fa-star"></i>
+                        <span>6.6 IMDb</span>
+                    </div>
+                </div>
+            </div>
+
+            <div class="work-card">
+                <div class="work-poster">
+                    <img src="images/graghanam.jpg" alt="Graghanam">
+                    <span class="upcoming-badge">Upcoming</span>
+                </div>
+                <div class="work-content">
+                    <h3>Graghanam</h3>
+                    <p class="work-year">In Production</p>
+                    <p class="work-role">Cinematographer</p>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+
+
+    <!-- Contact Section -->
+    <section id="contact" class="contact">
+        <div class="container">
+            <h2 class="section-title">Get In Touch</h2>
+            <p class="section-subtitle">Let's collaborate on your next project</p>
+            
+            <div class="contact-content">
+                <div class="contact-info">
+                    <a href="mailto:filmaddicts.sara@gmail.com" style="text-decoration: none; color: inherit;">
+                        <div class="info-card">
+                            <i class="fas fa-envelope"></i>
+                            <h3>Email</h3>
+                            <p>filmaddicts.sara@gmail.com</p>
+                        </div>
+                    </a>
+                    <a href="https://wa.me/dop_shreesaravanan" target="_blank" style="text-decoration: none; color: inherit;">
+                        <div class="info-card">
+                            <i class="fab fa-whatsapp"></i>
+                            <h3>WhatsApp</h3>
+                            <p>@dop_shreesaravanan</p>
+                        </div>
+                    </a>
+                    <div class="info-card">
+                        <i class="fas fa-map-marker-alt"></i>
+                        <h3>Location</h3>
+                        <p>Chennai and Mumbai</p>
+                    </div>
+                </div>
+
+                <div class="social-links">
+                    <a href="https://www.imdb.com/name/nm9103175/" target="_blank" class="social-link" aria-label="IMDb">
+                        <i class="fab fa-imdb"></i>
+                    </a>
+                    <a href="https://www.instagram.com/dop_shreesaravanan/" target="_blank" class="social-link" aria-label="Instagram">
+                        <i class="fab fa-instagram"></i>
+                    </a>
+                    <a href="https://in.linkedin.com/in/sreesaravananmanoharan" target="_blank" class="social-link" aria-label="LinkedIn">
+                        <i class="fab fa-linkedin"></i>
+                    </a>
+                    <a href="https://www.facebook.com/p/Sree-saravanan-100063888076086/" target="_blank" class="social-link" aria-label="Facebook">
+                        <i class="fab fa-facebook"></i>
+                    </a>
+                    <a href="https://www.youtube.com/watch?v=F32BQMkNlAc" target="_blank" class="social-link" aria-label="YouTube">
+                        <i class="fab fa-youtube"></i>
+                    </a>
+                    <a href="https://in.bookmyshow.com/person/sree-saravanan/1084229" target="_blank" class="social-link" aria-label="BookMyShow">
+                        <i class="fas fa-ticket-alt"></i>
+                    </a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <p>&copy; 2026 Shree Saravanan. All rights reserved.</p>
+            <p class="footer-tagline">Cinematographer | Director of Photography</p>
+            <p style="margin-top: 15px; font-size: 0.9rem;">Designed by <a href="https://thoshotech.com" target="_blank" style="color: var(--primary-color); text-decoration: none;">Thosho Tech</a></p>
+        </div>
+    </footer>
+
+    <!-- Image Modal -->
+    <div id="imageModal" class="modal" onclick="this.style.display='none'">
+        <span class="close">&times;</span>
+        <img class="modal-content" id="expandedImg">
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
